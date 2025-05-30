@@ -1,0 +1,117 @@
+.contact-page {
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #222;
+  }
+  
+  .contact-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+  }
+  
+  .contact-info {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+  }
+  
+  .contact-info p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+  }
+  
+  .contact-info a {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 280px;
+    max-width: 500px;
+    background: #fafafa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .contact-form h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .contact-form button:hover {
+    background-color: #333;
+  }
+  
+  .response-time {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    color: #777;
+    text-align: center;
+  }
+  
+  .feedback-section {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .feedback-link-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .feedback-link-button:hover {
+    background-color: #ff1493;
+  }

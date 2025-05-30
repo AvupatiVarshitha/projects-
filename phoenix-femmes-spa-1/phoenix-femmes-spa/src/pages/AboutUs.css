@@ -1,0 +1,84 @@
+.about-container {
+    padding-left: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff; 
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .about-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+    
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 280px;
+    max-width: 500px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-text .credit {
+    font-size: 0.9rem;
+  }
+  
+  .about-text .call-button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .about-text .call-button:hover {
+    background-color: #706354;
+    color: #fff;
+  }
+  
+  .about-image img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .about-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .feature {
+    flex: 1;
+    min-width: 220px;
+  }
+  
+  .feature h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature span {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  

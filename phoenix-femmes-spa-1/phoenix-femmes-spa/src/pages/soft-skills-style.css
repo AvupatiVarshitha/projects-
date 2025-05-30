@@ -1,0 +1,125 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f2f2f1;
+  color: #5d6169;
+}
+
+/* Container */
+.soft-skills-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #bdbeba;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.hero h1 {
+  color: #706354;
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  color: #5d6169;
+  font-size: 1.1rem;
+}
+
+/* Section headings */
+section h2 {
+  color: #706354;
+  border-bottom: 2px solid #c6c1bb;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+/* List styles */
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+ol {
+  padding-left: 1.5rem;
+}
+
+/* Buttons */
+button {
+  background-color: #5d6169;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #706354;
+}
+
+/* Form styling */
+form {
+  background-color: #f2f2f1;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+form label {
+  display: block;
+  margin: 0.75rem 0 0.25rem;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #c6c1bb;
+  border-radius: 5px;
+}
+form input[type="radio"],
+form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #bdbeba;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #5d6169;
+}
+footer nav {
+  margin: 1rem 0;
+}
+footer nav a {
+  color: #706354;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+footer nav a:hover {
+  text-decoration: underline;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+footer input[type="email"] {
+  padding: 0.5rem;
+  border: 1px solid #c6c1bb;
+  border-radius: 5px;
+  width: 250px;
+}

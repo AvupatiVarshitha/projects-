@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f1;
+  color: #5d6169;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Dropdown (if needed elsewhere) */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #c6c1bb;
+  padding: 10px;
+  border-radius: 6px;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin-bottom: 8px;
+}
+
+.dropdown-menu li:last-child {
+  margin-bottom: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #706354;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #5d6169;
+  font-size: 1.1rem;
+}
+
+/* Sections */
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #bdbeba;
+  box-shadow: 0 2px 5px rgba(93, 97, 105, 0.1);
+}
+
+section h2 {
+  color: #706354;
+  margin-bottom: 15px;
+}
+
+section p,
+section li {
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.subscribe {
+  background-color: #5d6169;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 5px;
+}
+
+.subscribe:hover {
+  background-color: #706354;
+}
+
+/* Scoring Boxes */
+.box {
+  background-color: #c6c1bb;
+  border-left: 5px solid #706354;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* Footer CTA */
+.footer-cta {
+  text-align: center;
+  padding: 15px;
+  background-color: #bdbeba;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #5d6169;
+  font-size: 0.9rem;
+}
+
+/* Questionnaire Styles */
+.question {
+  margin-bottom: 20px;
+}
+
+.question p {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.question label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.question input[type="radio"] {
+  margin-right: 10px;
+  accent-color: #706354;
+  transform: scale(1.1);
+}
+
+/* Result Box After Submit */
+.result-box {
+  background-color: #e7e5e2;
+  border-left: 5px solid #5d6169;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-weight: 500;
+}

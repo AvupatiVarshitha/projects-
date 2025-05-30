@@ -1,0 +1,179 @@
+.home-page {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f0ed;
+  color: #5d6169;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Hero Section */
+.home-page .hero {
+  background-color: white;  
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.home-page .hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home-page .hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.home-page .cta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.home-page .cta button {
+  background-color: white;
+  color: #5d6169;
+  border: 2px solid #5d6169;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.home-page .cta button:hover {
+  background-color: #5d6169;
+  color: white;
+}
+
+/* Split Images */
+.home-page .split-images {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.home-page .image {
+  flex-shrink: 0;
+  width: 450px;
+  height: 300px;
+  background-color: #f2f2f1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Offerings */
+.home-page .offerings {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.home-page .offerings h2 {
+  color: #706354;
+  margin-bottom: 1.5rem;
+}
+
+.home-page .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.home-page .card {
+  background-color: #f2f2f1;
+  border: 1px solid #c6c1bb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-page .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.home-page .card h3 {
+  color: #5d6169;
+  margin-bottom: 1rem;
+}
+
+.home-page .card ul {
+  padding-left: 1.25rem;
+}
+
+.home-page .card li {
+  margin-bottom: 0.5rem;
+}
+
+/* Why Section */
+.home-page .why {
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.home-page .why h2 {
+  margin-bottom: 1rem;
+  color: #5d6169;
+}
+
+.home-page .reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+/* Footer */
+.home-page footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: #eee;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.home-page footer nav a {
+  color: #5d6169;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.home-page footer nav a:hover {
+  text-decoration: underline;
+}
+
+.home-page .newsletter {
+  margin-top: 1rem;
+}
+
+.home-page .newsletter input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+.home-page .newsletter button {
+  padding: 0.5rem 1rem;
+  background-color: #5d6169;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.home-page .newsletter button:hover {
+  background-color: #44474d;
+}
