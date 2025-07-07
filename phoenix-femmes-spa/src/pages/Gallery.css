@@ -1,0 +1,134 @@
+.gallery {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.gallery h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.gallery p {
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* Folder Section Styling */
+.gallery-folder {
+  margin-bottom: 3rem;
+  padding: 1rem 0;
+}
+
+.gallery-folder h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #d63384; /* Pinkish heading */
+  border-bottom: 2px solid #eee;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+/* Grid layout for each folder */
+.gallery-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+}
+
+/* Card styling */
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Hover Effects */
+.gallery-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.gallery-card:hover img {
+  transform: scale(1.05);
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.8rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.gallery-card:hover .caption {
+  opacity: 1;
+}
+.gallery-folder-cover {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-folder-cover img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+.gallery-folder-cover:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.folder-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Optional spacing for image section */
+.folder-images {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 2px solid #eee;
+}

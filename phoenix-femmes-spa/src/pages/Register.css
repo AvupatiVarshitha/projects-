@@ -1,0 +1,118 @@
+.register-container {
+   width: 90%;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+   position: relative;  /* NEW */
+  z-index: 10;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+ 
+  
+  z-index: 10;          /* NEW */
+  position: relative;   /* NEW */
+
+
+}
+
+.register-form button:hover {
+  background-color: #005fcc;
+}
+
+.login-link {
+  color: #0077ff;
+  cursor: pointer;
+}
+
+.message {
+  color: green;
+  margin-bottom: 10px;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .register-form input,
+  .register-form button {
+    font-size: 14px;
+  }
+}
+
+.forgot-password {
+  color: #656262;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+.password-field {
+  position: relative;
+  width: 100%;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 40px; /* Space for the icon */
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+  user-select: none;
+}
+.toggle-password:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 40px; /* space for icon */
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #555;
+  cursor: pointer;
+  user-select: none;
+}
